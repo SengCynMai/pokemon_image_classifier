@@ -60,23 +60,32 @@ Here are example predictions from the trained model using the Streamlit interfac
 
 ## 📁 Project Structure
 Assignment6/
-─ PokemonData
-── src/
- ─ dataset.py # Data loading & preprocessing
- ─ model.py # ResNet18 model definition
- ─ train.py # Model training script
- ─ predict.py # Command-line prediction script
-── app.py # Streamlit demo application
-── model.pth # Trained model weights
-── predict1.jpg 
-── predict2.jpg 
-── predict3.jpg 
+_PokemonData
+_src/
+ _dataset.py # Data loading & preprocessing
+ _model.py # ResNet18 model definition
+ _train.py # Model training script
+ _predict.py # Command-line prediction script
+_app.py # Streamlit demo application
+_model.pth # Trained model weights
+_predict1.jpg 
+_predict2.jpg 
+_predict3.jpg 
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+### Train the model
+```bash
+python src/train.py
+```
+### Run Streamlit app
+```bash
+streamlit run app.py
+```
 
 
 
